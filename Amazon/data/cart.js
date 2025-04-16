@@ -80,6 +80,6 @@ export function loadCart(fun) {
     fun();
   });
 
-  xhr.open('GET', 'http://127.0.0.1:5500/cart');
+  xhr.open('GET', 'https://supersimplebackend.dev/cart');
   xhr.send();
 }
